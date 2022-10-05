@@ -26,4 +26,44 @@ body {
       margin-bottom: 28px;
     }
   }
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  select.textInput {
+    padding: 14px 16px 13px;
+  }
+  .textInput {
+    border: 1px solid #f3d1bf;
+    border-radius: 6px;
+    padding: 7px 16px 7px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 32px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgba(57, 20, 0, 0.64);
+    }
+    &.area {
+      min-height: 96px;
+      resize: vertical;
+    }
+  }
+  .btn.form {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 18px 30px;
+    background-color: #ef6d58;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    align-self: end;
+    margin-top: 16px;
+  }
 }
