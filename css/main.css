@@ -101,4 +101,23 @@ body {
   -ms-flex-item-align: end;
       align-self: end;
   margin-top: 16px;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact {
+    padding-top: 176px;
+    padding-bottom: 176px;
+  }
+  .contact .contactGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
